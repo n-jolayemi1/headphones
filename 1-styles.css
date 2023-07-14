@@ -1,0 +1,158 @@
+/* Importing webfonts */
+/* (If you're learning CSS, you should disregard that) */
+
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+
+
+/* CSS reset rules */
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* h1, h2, h3, h4, h5, h6, header {
+	font-family: 'Yeseva One', sans-serif;
+} */
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 0 0 0;
+    padding: 0 7rem;
+    position: relative;
+    z-index: 100;
+}
+
+header .header-nav-link
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header .header-nav-link a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 1rem;
+    font-family: 'Yeseva One', sans-serif;
+
+}
+
+/* Main */
+main
+{
+    background-image: url(headphones_hero_1.jpg);
+    height: 800px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -105px;
+    display: flex;
+    justify-content: center;
+}
+
+/* main section */
+main section
+{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20rem;
+    position: relative;
+    top: 7rem;
+}
+
+main section div{
+    padding: 1rem;
+}
+
+main section .section-div-button{
+    width: 100px;
+    height: 44px;
+    top: 100px;
+    align-self: center;
+    
+}
+
+main section .section-div-button button
+{
+    background-color: #FF6565;
+    color: white;
+    min-width: 162px;
+    min-height: 44px;
+    border-color: #FF6565;
+    border-radius: 3rem;
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 12px;
+}
+
+main section div h1,h4
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+main section .section-div-footer
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    top: 209px;
+}
+
+/* Second section */
+.second-section
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 3rem;
+    border: 1px solid black;
+    position: relative;
+    top: -105px;
+    justify-content: space-around;
+
+}
+
+.second-section .what-we-do
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin: 0 17rem;
+}
+
+.second-section .sound
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.second-section .sound .sound-content
+{
+    margin: 0 1rem;
+    width: 8rem;
+}
